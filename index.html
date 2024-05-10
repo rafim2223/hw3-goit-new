@@ -10,76 +10,79 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body class="body">
-    <!-- HEADER -->
-    <header class="header-nav">
-      <div class="top-bar">
-        <nav class="page-nav">
-          <a class="logo" href="./index.html"
-            >Web<span class="color-second">Studio</span></a
-          >
-          <ul class="list-nav">
-            <li class="list-header-nav">
+    <!-- top-bar  -->
+    <header class="header-first container">
+      <div class="div-header container">
+        <nav class="page-nav container">
+          <a class="logo" href="./index.html">Web<span class="color-second">Studio</span></a>
+          <ul class="menu">
+            <li class="item">
               <a href="./index.html" class="link">Studio</a>
             </li>
-            <li class="list-header-nav">
-              <a class="link" href="">Portfolio</a>
-            </li>
-            <li class="list-header-nav">
-              <a class="link" href="">Contacts</a>
-            </li>
+            <li class="item"><a class="link" href="">Portfolio</a></li>
+            <li class="item"><a class="link" href="">Contacts</a></li>
           </ul>
+
+          <address class="adress-second">
+            <ul class="menu-second">
+              <li class="item-second">
+                <a href="mailto:info@devstudio.com" class="link-second"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="item">
+                <a href="tel:+110001111111" class="link-second"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+            </ul>
+          </address>
         </nav>
-        <address class="adress">
-          <ul class="adres-list">
-            <li class="adress-list-item">
-              <a href="mailto:info@devstudio.com" class="link-second"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li class="adress-list-item">
-              <a href="tel:+110001111111" class="link-second"
-                >+11 (000) 111-11-11</a
-              >
-            </li>
-          </ul>
-        </address>
       </div>
     </header>
-    <!-- main -->
+    <!-- top-bar  -->
     <main>
+      <!-- hero  -->
       <section class="section-first">
+        <div class="container div-first" >
         <h1 class="header-first">Effective Solutions for Your Business</h1>
-        <button class="button" type="button">Order Service</button>
-        <h2>Lorem ipsum dolor sit amet consectetur</h2>
+        <button class="button" >Order Service</button>
+        
       </section>
+      <!-- section first with text  -->
       <section class="section-second">
-        <h2 class="header-second"></h2>
-        <ul>
-          <li>
+        <div class="div-second container">
+        <h2 class="header-second">Cos</h2>
+        <ul class="list-second-section">
+          <li class="list-item-second-section">
             <h3 class="header-hero">Strategy</h3>
             <p class="paragraph-hero">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
-          <li>
+          <li class="list-item-second-section">
             <h3 class="header-hero">Punctuality</h3>
             <p class="paragraph-hero">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
-          <li>
+          <li class="list-item-second-section">
             <h3 class="header-hero">Diligence</h3>
             <p class="paragraph-hero">
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
           </li>
-          <li>
+          <li class="list-item-second-section">
             <h3 class="header-hero">Technologies</h3>
             <p class="paragraph-hero">
               Design practice focused on digital experiences. We bring forth a
@@ -87,42 +90,68 @@
             </p>
           </li>
         </ul>
+      </div>
+
       </section>
+      <!-- section workers  -->
       <section class="section-third">
+        <div class="container div-third">
         <h2 class="header-section">Our Team</h2>
-        <ul>
-          <li class="list-item-second">
-            <img src="./images/1.jpg" width="264" alt="Mark Guerrero" />
+        <ul class="list-third-section">
+          <li class="list-item-third-section">
+            <img src="./images/1.jpg" 
+            width="264" 
+            alt="dark-skinned guy with beard in blue collared shirt" />
+            <div class="worker">
             <h3 class="header-third">Mark Guerrero</h3>
             <p class="section-third-p">Product Designer</p>
+            </div>
           </li>
-
-          <li class="list-item-second">
-            <img src="./images/2.jpg" width="264" alt="Tom Ford" />
+          
+          <li class="list-item-third-section">
+            <img src="./images/2.jpg" 
+            width="264" 
+            alt="fair skinned guy smiling in blue collared shirt" />
+             <div class="worker">
             <h3 class="header-third">Tom Ford</h3>
             <p class="section-third-p">Frontend Developer</p>
+            </div>
           </li>
-
-          <li class="list-item-second">
-            <img src="./images/3.jpg" width="264" alt="Camila Garcia" />
+          
+          <li class="list-item-third-section">
+            <img src="./images/3.jpg" 
+            width="264" 
+            alt="woman with dark hair in pink sweater" />
+             <div class="worker">
             <h3 class="header-third">Camila Garcia</h3>
             <p class="section-third-p">Marketing</p>
+           </div>
           </li>
-
-          <li class="list-item-second">
-            <img src="./images/4.jpg" width="264" alt="Daniel Wilson" />
+          
+          <li class="list-item-third-section">
+            <img src="./images/4.jpg" 
+            width="264" 
+            alt="smiling guy in grey t-shirt" />
+             <div class="worker">
             <h3 class="header-third">Daniel Wilson</h3>
             <p class="section-third-p">UI Designer</p>
+            </div>
           </li>
         </ul>
+      </div>
       </section>
+      <!-- section products  -->
       <section class="section-fourth">
         <h2 class="header-section">Our Portfolio</h2>
-        <ul>
+        <div class="container div-fourth">
+        <ul class="list-section-fourth">
           <li class="list-item-second">
             <img src="./images/banking-app.jpg" width="360" alt="banking app" />
-            <h3 class="header-fourth">Banking App</h3>
+            
+            <div class="div-item-forth-section">
+              <h3 class="header-fourth">Banking App</h3>
             <p class="paragraph-row">App</p>
+            </div>
           </li>
           <li class="list-item-second">
             <img
@@ -130,8 +159,10 @@
               width="360"
               alt="cashless payment"
             />
+            <div class="div-item-forth-section">
             <h3 class="header-fourth">Cashless Payment</h3>
             <p class="paragraph-row">Marketing</p>
+            </div>
           </li>
           <li class="list-item-second">
             <img
@@ -139,9 +170,10 @@
               width="360"
               alt="meditation app"
             />
-
+            <div class="div-item-forth-section">
             <h3 class="header-fourth">Meditation App</h3>
             <p class="paragraph-row">App</p>
+            </div>
           </li>
           <li class="list-item-second">
             <img
@@ -149,9 +181,10 @@
               width="360"
               alt="taxi service"
             />
-
+              <div class="div-item-forth-section">
             <h3 class="header-fourth">Taxi Service</h3>
             <p class="paragraph-row">Marketing</p>
+            </div>
           </li>
           <li class="list-item-second">
             <img
@@ -159,8 +192,10 @@
               width="360"
               alt="screen Illlustrations"
             />
+            <div class="div-item-forth-section">
             <h3 class="header-fourth">Screen Illustrations</h3>
             <p class="paragraph-row">Design</p>
+            </div>
           </li>
           <li class="list-item-second">
             <img
@@ -168,13 +203,17 @@
               width="360"
               alt="online courses"
             />
+            <div class="div-item-forth-section">
             <h3 class="header-fourth">Online Courses</h3>
             <p class="paragraph-row">Marketing</p>
+            </div>
           </li>
         </ul>
+        </div>
       </section>
     </main>
     <footer class="footer">
+      <div class="container" >
       <a href="./index.html" class="logo"
         >Web<span class="color-third">Studio</span></a
       >
@@ -182,6 +221,7 @@
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
       </p>
+      </div>
     </footer>
   </body>
 </html>
